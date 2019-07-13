@@ -1,0 +1,53 @@
+.main {
+    margin-left: 200px;
+    padding: 0px 10px;
+}
+
+.TieuDe {
+    font-weight: bold;
+}
+
+.title {
+    margin-bottom: 30px; 
+}
+
+.btn-warning {
+    margin-bottom: 5px;
+}
+
+.themmoi {
+    color: white;
+}
+
+.themmoi:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-times-circle {
+    position: relative;
+    display: none;
+    float: right;
+    margin-top: -27px;
+    font-size: 20px;
+    margin-right: 5px;
+    z-index: 100;
+    color: darkgrey;
+}
+
+.showicon:focus +.fa-times-circle,
+.showicon:valid +.fa-times-circle{
+    display: block;
+}
+
+.row-baihat{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.btn-submit{
+    text-align: center
+}
+.btn-submit button{
+    width: 100px;
+}

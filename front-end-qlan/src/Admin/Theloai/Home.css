@@ -1,0 +1,79 @@
+.main {
+    margin-left: 200px;
+    padding: 0px 10px;
+}
+
+.TieuDe {
+    font-weight: bold;
+}
+
+.title {
+    margin-bottom: 30px; 
+}
+
+.btn-warning {
+    margin-right: 15px;
+}
+
+.btn-success {
+    margin-bottom: 15px;
+}
+
+.TenAlbum {
+    color: black;
+}
+
+.TenAlbum:hover {
+    text-decoration: none;
+}
+
+.Them {
+    color: white;
+}
+
+.Them:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    cursor: pointer;
+}
+
+.rowtheloai{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.btnxem{
+    background-color: #5bc0de;
+    margin-left: 10px;
+    border-color: #5bc0de;
+}
+
+.btnxem:hover,
+.btnxem:focus{
+    background-color: #3aa3c4;
+    border-color: #3aa3c4;
+}
+
+.group-newplaylist{
+    width: 100%;
+    float: left;
+    padding-top: 10px;   
+}
+.group-newplaylist .col-sm-3{
+    padding-right: 0;   
+}
+.group-newplaylist .col-sm-6{
+    padding-left: 0;   
+    padding-right: 0;  
+}
+
+.group-newplaylist button{
+    margin-right: 10px;
+}
+
+.group-newplaylist .row-baihat{
+    padding-top: 10px;
+}

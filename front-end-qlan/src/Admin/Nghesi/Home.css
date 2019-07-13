@@ -1,0 +1,55 @@
+.main {
+    margin-left: 200px;
+    padding: 0px 10px;
+}
+
+.TieuDe {
+    font-weight: bold;
+}
+
+.title {
+    margin-bottom: 30px; 
+}
+
+.btn-warning {
+    margin-right: 15px;
+}
+
+.btn-success {
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 100px;
+    height: 140px;
+}
+
+.Them {
+    color: white;
+}
+
+.Them:hover {
+    text-decoration: none;
+    color: white;
+}
+.row-nghesi{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.tdtieusu{
+    width: 400px;
+    padding: 0;
+}
+
+.tdtieusu div{
+    margin: 0;
+    width: 100%;
+    max-height: 140px;
+    overflow-y: auto;
+    /* white-space: pre; */
+}
+
+.thaotac{
+    width: 80px;
+}

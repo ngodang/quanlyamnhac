@@ -1,0 +1,33 @@
+body {font-family: "Lato", sans-serif;}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f8f8f8;
+    border: 1px solid #e7e7e7;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+  
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: cornflowerblue;
+    display: block;
+}
+  
+.sidebar a:hover {
+    background-color: #d1d1d1
+}
+  
+  
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
